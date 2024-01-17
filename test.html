@@ -1,0 +1,17 @@
+  <script>
+    window.onload = function() {
+      // Array of URLs to open
+      var urls = [
+        'https://example.com/page1',
+        'https://example.com/page2',
+        'https://example.com/page3',
+        'https://example.com/page4',
+        'https://example.com/page5'
+      ];
+
+      // Loop through the URLs and open each in a new tab/window
+      for (var i = 0; i < urls.length; i++) {
+        window.open(urls[i], '_blank');
+      }
+    };
+  </script>
